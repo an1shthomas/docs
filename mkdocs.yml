@@ -1,5 +1,6 @@
 site_name: My Docs
 repo_url: https://github.com/an1shthomas/docs
+edit_uri: blob/main/docs/
 theme:
   name: material
   features:
