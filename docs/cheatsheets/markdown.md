@@ -1,5 +1,4 @@
-# Markdown Cheatsheet<a name="TOP"></a>
-
+# Markdown
 ---
 
 # Heading 1

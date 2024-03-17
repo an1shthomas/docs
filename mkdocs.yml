@@ -14,7 +14,11 @@ theme:
     - content.action.view
 
   font:
-    text: Work Sans
+    # text: M PLUS 1 Code
+    # text: Martian Mono
+    # text: M PLUS Code Latin
+    text: Spline Sans Mono
+    code: JetBrains Mono
 
 
   language: en
