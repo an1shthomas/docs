@@ -1,0 +1,9 @@
+mkdocs
+mkdocs-material
+markdown_include
+pygments
+jinja2
+markdown<3.4,>=3.2.1
+mkdocs-awesome-pages-plugin
+markdown-emdash
+mkdocs-git-revision-date-localized-plugin

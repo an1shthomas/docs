@@ -1,11 +1,13 @@
 site_name: My Docs
+repo_url: https://github.com/an1shthomas/docs
 theme:
   name: material
   features:
-    # - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - navigation.footer
+    - navigation.instant
     - navigation.top
+    - toc.integrate
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -15,16 +17,12 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/brightness-7
         name: Switch to dark mode
-      primary: teal
-      accent: purple 
     - scheme: slate 
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-7
         name: Switch to light mode    
-      primary: teal
-      accent: lime
 
 
 markdown_extensions:
@@ -43,3 +41,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized:
+      type: timeago
