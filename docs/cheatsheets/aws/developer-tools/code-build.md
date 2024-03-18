@@ -1,9 +1,12 @@
-# CodeBuild
+# CodeBuild :fontawesome-brands-aws:
 
-A `buildspec.yml` is a colleciton of build commands and related settings in YAML format, that CodeBuild uses to run a build. You can include a buildspec as part of the source code or you can define a buildspec when you create build project. 
+---
+
+A `buildspec.yml` is a colleciton of build commands and related settings in YAML format, that CodeBuild uses to run a build. You can include a buildspec as part of the source code or you can define a buildspec when you create build project.
 
 Example:
-```yml linenums="1"
+
+```yml linenums="1" title="buildspec.yml"
 version: 0.2
 
 phases:

@@ -1,8 +1,13 @@
-# CodeDeploy
-An application specific file(AppSpec file), which is unique to CodeDeploy, is a YAML formattted or JSON formatted file. The AppSpec file is used to manage each deployment as a series of lifecycle even hooks, which are defined in the file. 
+# CodeDeploy :fontawesome-brands-aws:
+
+---
+
+An application specific file(AppSpec file), which is unique to CodeDeploy, is a YAML formattted or JSON formatted file. The AppSpec file is used to manage each deployment as a series of lifecycle even hooks, which are defined in the file.
 
 ## AppSpec file on an EC2
-Example 
+
+Example
+
 ```yml linenums="1" title="appspec.yml"
 version: 0.0
 os: linux
@@ -22,5 +27,4 @@ hooks:
   ApplicationStart:
     - location: deploy-scripts/application-start-hook.sh
       timeout: 300
-
 ```

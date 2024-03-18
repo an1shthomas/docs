@@ -1,5 +1,7 @@
-# Docker
+# Docker :simple-docker:
+
 ---
+
 ![docker.webp](../../images/docker.png)
 
 **Docker** is a containerization platform that encapsulates an application and its dependencies into a container, ensuring consistent operation across different computing environments. It leverages OS-level virtualization to deliver software in packages called containers, providing isolation and resource efficiency, and facilitates CI/CD practices by streamlining deployment and scaling.
