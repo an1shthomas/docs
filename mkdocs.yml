@@ -62,3 +62,6 @@ plugins:
   - awesome-pages
   - git-revision-date-localized:
       type: timeago
+
+extra: 
+  generator: false
